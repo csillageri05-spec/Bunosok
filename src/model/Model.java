@@ -36,7 +36,7 @@ public class Model {
         if (talaltMegoldasok > 0) {
             this.uzenet = "A rejtveny megoldva, a tettes: " + talaltTettes;
         }else{
-            this.uzenet="Nincs megoldas, minden probalkozásnál ellentmondásba futunk";
+            this.uzenet="Nincs megoldas, mert ellentmondásba futunk";
         }
     }
 
